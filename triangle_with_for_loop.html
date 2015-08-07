@@ -20,7 +20,17 @@
 
 			for ( var count = 0; count < 20; count++){
 				if ( count % 3 == 0 && count % 4 == 0 ){
-					document.write(count);
+					document.write(count + '<br >');
+				}
+			}
+
+			for ( var count = 0; count < 20; count++){
+				if ( count % 4 == 0){
+					document.write(count + '<br >');
+				}
+
+				if ( count % 4 != 0 ){
+					document.write ( "("+count+")"+ '<br >');
 				}
 			}
 		</script>
