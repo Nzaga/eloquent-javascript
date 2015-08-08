@@ -10,10 +10,16 @@
 
 	<section>
 		<script type="text/javascript">
-			var number = prompt ( "What is the value of 2 + 2 ", "");
+
+			var number = null;
+
+			while ( number != 4 ){
+
+				number = prompt ( "What is the value of 2 + 2 ", "");
 
 			if ( number == 4 ){
 				alert("You are brave");
+				break;
 			}
 			else if ( number == 3 || number == 5){
 				alert("You are almost");
@@ -21,6 +27,9 @@
 			else {
 				alert ("Go to class again");
 			}
+
+			}
+			
 		</script>
 	</section>
 
