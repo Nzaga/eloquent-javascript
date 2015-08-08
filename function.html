@@ -30,15 +30,14 @@
 		function absolute (number){
 
 			if ( number < 0 ){
-				number = number * -1;
-				document.write( number)
+				return number * -1;
 			}
 			else {
-				document.write( number);
+				return number;
 			}
 		}
 
-		absolute(-9);
+		document.write ( absolute(-5));
 
 	</script>
 </body>
