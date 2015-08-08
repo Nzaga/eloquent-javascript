@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<header>
+		
+	</header>
+
+	<section>
+		<script type="text/javascript">
+			var myCharacter = "";
+
+			for ( var line = 0; line < 10; line = line +1){
+				myCharacter = myCharacter + "#";
+				document.write(myCharacter + '<br >');
+
+			}
+
+			for ( var count = 0; count < 20; count++){
+				if ( count % 3 == 0 && count % 4 == 0 ){
+					document.write(count + '<br >');
+				}
+			}
+
+			for ( var count = 0; count < 20; count++){
+				if ( count % 4 == 0){
+					document.write(count + '<br >');
+				}
+
+				if ( count % 4 != 0 ){
+					document.write ( "("+count+")"+ '<br >');
+				}
+			}
+
+			for ( var count = 0; count < 20; count++){
+				if ( count % 4 == 0 ){
+					document.write(count);
+				}
+				else {
+					document.write ( "("+count+")");
+				}
+			}
+		</script>
+	</section>
+
+	<footer>
+		
+	</footer>
+</body>
+</html>
