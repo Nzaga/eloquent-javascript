@@ -24,7 +24,21 @@
 			return result;
 		}
 
-		document.write( power(2,24));
+		//document.write( power(2,24));
+
+		//The following function is to produce the absolute of the number
+		function absolute (number){
+
+			if ( number < 0 ){
+				number = number * -1;
+				document.write( number)
+			}
+			else {
+				document.write( number);
+			}
+		}
+
+		absolute(-9);
 
 	</script>
 </body>
