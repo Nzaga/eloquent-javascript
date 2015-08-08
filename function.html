@@ -10,7 +10,21 @@
 			return a+b;
 		}
 
-		document.write( sum(2,4));
+		//document.write( sum(2,4));
+
+		//The fuction below is used to find the power of the two numbers
+		function power(base, exponent){
+			var result = 1;
+
+			for ( var count =0; count < exponent; count++){
+				result *= base;
+
+			}
+
+			return result;
+		}
+
+		document.write( power(2,24));
 
 	</script>
 </body>
